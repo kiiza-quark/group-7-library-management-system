@@ -4,6 +4,7 @@ botocore
 Django
 django-ckeditor
 django-crispy-forms
+django_heroku
 django-filter
 django-js-asset
 django-storages
