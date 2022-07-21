@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-v@+lr$na^%894hblhe&mn&ovivyx#_90l&vhh%yc%0-c_yrv05'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localost','127.0.0.1','group-seven-library.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','group-seven-library.herokuapp.com']
 
 
 # Application definition
@@ -98,7 +98,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-#TIME_ZONE = 'America'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
@@ -130,5 +130,3 @@ STATICFILES_DIRS = (
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-import django_heroku
-django_heroku.settings(locals())
