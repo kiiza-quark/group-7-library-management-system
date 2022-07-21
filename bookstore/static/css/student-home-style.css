@@ -55,7 +55,7 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url('firstpageimage.jpg') no-repeat;
+  background: url(firstpageimage.jpg) no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
